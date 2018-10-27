@@ -1,0 +1,24 @@
+The inputfile contains the list of tweets. So using the assignment 1, the tweets were tokenized according to the golden rules of the assignment 1. But instead of writing the output of assigment 1 to output file instead the list that gets generated in that which contains the tokens of the tweets are used for the assignment 3 for language modeling. 
+The goal here is to get bigram, trigram, 4-gram and 5-gram model. So for achievement of this goal, ngrams packages from nltk.collocations was used. This on giving a list as input gives the n-gram output where n is user specified. So the syntax for that is “ngrams(list, 2)” where 2 says that ouput will be bigram model. 
+The goal is also achieved without using library. For that just the length of list was checked to get an idea of what all models can be built and then the list was traversed to get the applicable models. 
+All of the output are written in files. 
+The input dataset that I used for language modeling is as mentioned below: 
+#helpeve#sadhjh #jash ASK QUESTIONS. GET ANSWERS. give a little, get a little. Its 
+free. http://buff.ly/1d2rjmm (@projecteve) 
+50 Free Fonts, Part 1 http://bit.ly/1201LiF (@terrinakamura) 
+[REPORT] Strategy checklist, how to organize your business for social & more from 
+@wildfireapp. #WFbyGoogle http://goo.gl/dJKcB (@wildfireapp) 
+Free White Paper: 50 Best Practices to Go Beyond Landing PageS.A.A. Get your free 25- 
+page guide today! (@ioninteractive) 
+Did you get your free P&G coupon book yet? If not, get it here: http://ow.ly/obKTj 
+(@drugstoredivas) 
+Hey guys, we've prepared something for you. http://www.topeleven.com/fan-kit/#!fankit- 
+twheaders ... ← Click the link and download FREE #topeleven headers for your profile! 
+(@topeleven) 
+Just warning's JONEs're ..."this he's has real life dialog". The characters drop the F-bomb on 
+occasion ;):)COWBOY :) TAKE ME :):):) :) AWAY http://ow.ly/lKwx5 
+(@PenelopeChilds)*_*:<)=={ 
+shan't won't shoudn't can't ain't hadn't• 
+US-based US-Japan-India-based 
+U.S.A. retweet 
+The ouput will be stored in the files named “bigram-output.txt”, “trigram-output.txt”, “4-gram-output.txt” & “5-gram-output.txt” containing their respective ngrams and in the format mentioned in the assignment guidelines. 
