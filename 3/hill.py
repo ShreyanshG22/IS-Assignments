@@ -43,7 +43,7 @@ def hill(text, key, decrypt = False):
 	n = int(sqrt(len(key)))
 	if n*n!=len(key):
 		print("Key length should have a square root")
-		return
+		return ""
 	if len(text)%n > 0:
 		text += 'x'*(n - (len(text)%n))
 
